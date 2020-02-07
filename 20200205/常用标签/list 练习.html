@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>list练习</title>
+		<style>
+			
+			
+			li{
+				
+				 /* color:#00CC66;      加颜色 */
+				list-style: none; /*去掉黑点*/
+				/* 设置宽高 */
+				width:166px;
+				height:48px;
+				
+				/* 文字水平居中 */
+				text-align: center;
+				/* 文字垂直居中 */
+				line-height: 48px;
+				
+				/* 矩形弧形 */
+				border-radius: 5px;
+				/* 过度特效 */
+				transition: 0.5s linear;
+				
+				float: left;/*设置为浮动类型，左边对齐*/
+			}
+			
+			/* 伪类  hover*/
+				/* 鼠标经过的时候 */
+			li:hover{
+				color:white;    /* 字体颜色 */
+				background-color:darkred;    /* 背景色 */
+				/* 变换鼠标形状 */
+				cursor: pointer;
+			}
+			
+			a:link,a:visited{
+			    display: block;/*设置为块级元素*/
+			    font-weight: bold;/*加粗字体*/
+			    color: grey;
+			    /* background-color: aqua; */
+			    text-align: center;
+			    text-decoration: none;/*去掉文本的下划线*/
+			}
+			 
+			
+		</style>
+	</head>
+	<body>
+		<h1>W3school</h1>
+		
+		
+		  <ul>
+			<li><a href="https://www.w3school.com.cn/h.asp ">HTML/CSS</a></li>
+			<li><a href="https://www.w3school.com.cn/b.asp ">Browser Side</a></li>
+			<li><a href="https://www.w3school.com.cn/s.asp ">Server Side</a></li>
+			<li><a href="https://www.w3school.com.cn/p.asp ">Programing</a></li>
+			<li><a href="https://www.w3school.com.cn/x.asp ">XML</a></li>
+			<li><a href="https://www.w3school.com.cn/w.asp ">Web Building</a></li>
+			<li><a href="https://www.w3school.com.cn/r.asp ">Reference</a></li>
+		  </ul>
+	   
+	</body>
+</html>
